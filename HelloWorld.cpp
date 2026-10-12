@@ -46,5 +46,7 @@ int main(){
     lengkapnya di https://cplusplus.com/reference/cmath/
     */
 
+    //https://youtu.be/-TkoO8Z07hI?t=3956
+
     return 0;
 }
