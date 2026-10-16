@@ -2,36 +2,50 @@
 
 int main(){
 
-    int cm;
-    std::cout << "ukuran tongtong kamu " << std::endl;
-    std::cin >> cm;
+    char operasi;
+    double no1;
+    double no2;
+    double hasil;
 
-    switch (cm)
-    {
-    case 1:
-        std::cout << "tongtong atau apa tuh kecil banget deksz" << std::endl;
-        break;
-    case 2:
-        std::cout << "tongtong apaan njir aowkwk" << std::endl;
-        break;
-    case 3:
-        std::cout << "tongtong masih kecil anjir" << std::endl;
-        break;
-    case 4:
-        std::cout << "tongtong sedang woila" << std::endl;
-        break;
-    case 5:
-        std::cout << "yaa yaa saya stecu" << std::endl;
-        break;
-    case 6:
-        std::cout << "males gw ngetik" << std::endl;
-        break;
-    
-    default:
-        std::cout << "mau berak ah" << std::endl; 
-        break;
-    }   
+    std::cout << "***************** KALKULATOR *****************\n";
 
+    std::cout << "Masukkan Operasi Hitung ";
+    std::cin >> operasi;
+
+    std::cout << "Masukkan Nomor Pertama ";
+    std::cin >> no1;
+
+    std::cout << "Masukkan Nomor Kedua ";
+    std::cin >> no2;
+
+    switch(operasi){
+
+        case '+':
+        hasil = no1 + no2;
+        std::cout << "Hasilnya Sama Dengan: " << hasil << std::endl;
+        break;
+
+        case '-':
+        hasil = no1 - no2;
+        std::cout << "Hasilnya Sama Dengan: " << hasil << std::endl;
+        break;
+
+        case '*':
+        hasil = no1 * no2;
+        std::cout << "Hasilnya Sama Dengan: " << hasil << std::endl;
+        break;
+
+        case '/':
+        hasil = no1 / no2;
+        std::cout << "Hasilnya Sama Dengan: " << hasil << std::endl;
+        break;
+
+        default:
+        std::cout << "Masukkan Operasi Hitung Yang Benar!" << std::endl;
+        break;
+    }
+
+      std::cout << "******************************************\n";
 
     return 0;
 }
