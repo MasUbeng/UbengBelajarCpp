@@ -41,7 +41,7 @@ int main(){
     std::cout << "Sekarang Email Kamu" << nama << std::endl;
 
 
-    //https://youtu.be/-TkoO8Z07hI?t=5404
+    //https://youtu.be/-TkoO8Z07hI?t=6714
 
     return 0;
 }

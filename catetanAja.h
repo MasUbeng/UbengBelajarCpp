@@ -25,6 +25,13 @@
     empty() > Mengecek apakah string kosong 
     Contoh: nama.empty() ? std::cout << "Kamu Harus Masukkan Nama Kamu\n" : std::cout << "Selamat Datang " << nama << std::endl;
 
+    --------
 
+    loop
+    break > menghentikan loop 
+    Contoh: (didalam Loop) if(i == 13){break;} > menghentikan loop yang ke13
+
+    continue > skip index didalam loop
+    Contoh: (didalam Loop) if(i == 13){continue;} > menyekip loop yang ke13
 
 */
