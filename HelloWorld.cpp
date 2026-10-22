@@ -9,7 +9,7 @@ int main(){
     double nilai = benar/(double)jumlahSoal * 100;
 
     std::cout << nilai << "%";
-    */
+    
 
     // kalau input angka duluan pake ini
     //std::getline(std::cin >> std::ws, nama);
@@ -29,22 +29,17 @@ int main(){
     }else{
         std::cout << "harap mengocok lagi" << std::endl;
     }
-
-    /*
-    operasi hitung (ubeng mau tidur sih jadi belajarnya yang cepet aja)
-    std::min(x, y)
-    std::max(x, y)
-
-    harus include <cmath>
-    pow(x, y) x pangkat y
-    sqrt(x) pangkat 2
-    abs(x) absolut |x|
-    round(x) pembulatan
-    ceil(x) pembulatan atas(?)
-    floor(x) pembulatan bawah(?)
-
-    lengkapnya di https://cplusplus.com/reference/cmath/
     */
+
+    std::string nama;
+    std::cout << "Masukkan Nama Kamu: ";
+    std::getline(std::cin, nama);
+
+    //nama.length() > 15 ? std::cout << "Nama Kamu Tidak Boleh Lebih Dari 12 Karakter!\n" : std::cout << "Selamat Datang " << nama << std::endl;
+    //nama.empty() ? std::cout << "Kamu Harus Masukkan Nama Kamu\n" : std::cout << "Selamat Datang " << nama << std::endl;
+    nama.append("@gmail.com");
+    std::cout << "Sekarang Email Kamu" << nama << std::endl;
+
 
     //https://youtu.be/-TkoO8Z07hI?t=5404
 
