@@ -38,10 +38,10 @@ int main(){
     //nama.length() > 15 ? std::cout << "Nama Kamu Tidak Boleh Lebih Dari 12 Karakter!\n" : std::cout << "Selamat Datang " << nama << std::endl;
     //nama.empty() ? std::cout << "Kamu Harus Masukkan Nama Kamu\n" : std::cout << "Selamat Datang " << nama << std::endl;
     nama.append("@gmail.com");
-    std::cout << "Sekarang Email Kamu" << nama << std::endl;
+    std::cout << "Sekarang Email Kamu " << nama << std::endl;
 
 
-    //https://youtu.be/-TkoO8Z07hI?t=6714
+    //https://youtu.be/-TkoO8Z07hI?t=7145
 
     return 0;
 }
